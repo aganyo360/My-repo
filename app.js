@@ -100,7 +100,43 @@ function checkAge(age) {
 // let value2 = prompt("Input the second value")
 // alert(min(value1,value2))
 
-function pow(x,n){
-  return (x**n)
-}
-alert(pow(3,3))
+// function pow(x,n){
+//   return (x**n)
+// }
+// alert(pow(3,3))
+
+// function pow(x, n) {
+//   let result = x;
+
+//   for (let i = 1; i < n; i++) {
+//     result *= x;
+//   }
+
+//   return result;
+// }
+
+// let x = prompt("x?", '');
+// let n = prompt("n?", '');
+
+// if (n < 1) {
+//   alert(`Power ${n} is not supported, use a positive integer`);
+// } else {
+//   alert( pow(x, n) );
+// }
+
+
+// let greeting = function(){
+//   alert("hello world")
+// }
+
+
+
+// function ask(question, yes , no){
+//   if(confirm(question)) yes()
+//   else no()
+// }
+
+// let choice=Math.random("brice", "wilson", "aganyo")
+
+
+
