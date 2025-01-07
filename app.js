@@ -29,9 +29,34 @@
 // // }
 
 
-const textBox = document.querySelector("#textBox");
-const output = document.querySelector("#output");
+// const textBox = document.querySelector("#textBox");
+// const output = document.querySelector("#output");
 
-textBox.addEventListener("keydown", (event) => {
-  output.textContent = `You pressed "${event.key}".`;
-});
+// textBox.addEventListener("keydown", (event) => {
+//   output.textContent = `You pressed "${event.key}".`;
+// });
+
+
+
+
+
+
+// (function(){
+//   console.log("hello brice")
+// })
+
+
+// function greetUser(username){
+//   return `Welcome ${username}`
+// }
+
+// greetUser("Brice")
+
+
+
+function textMessage(from, message){
+   let scriptureReading = `This is the message from ${from},it says ${message}`
+   alert(scriptureReading)
+}
+
+textMessage("Jesus", "Love your neighbour as you love yourself")
