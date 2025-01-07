@@ -54,9 +54,53 @@
 
 
 
-function textMessage(from, message){
-   let scriptureReading = `This is the message from ${from},it says ${message}`
-   alert(scriptureReading)
+// function textMessage(from, message){
+//    let scriptureReading = `This is the message from ${from},it says ${message}`
+//    alert(scriptureReading)
+// }
+
+// textMessage("Jesus", "Love your neighbour as you love yourself")
+
+function checkAge(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return confirm('Do you have permission from your parents?');
+  }
 }
 
-textMessage("Jesus", "Love your neighbour as you love yourself")
+// let age = prompt('How old are you?', 18);
+
+// if ( checkAge(age) ) {
+//   alert( 'Access granted' );
+// } else {
+//   alert( 'Access denied' );
+// }
+
+
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   }
+//   // ...
+//   return confirm('Did parents allow you?');
+// }
+
+// let age = prompt("What is your age", 18)
+// checkAge(age)
+
+
+// function min(firstValue, secondVAlue){
+//   return (firstValue<secondVAlue) ? firstValue:secondVAlue;
+// }
+
+
+// let value1 = prompt("Input the first value")
+// let value2 = prompt("Input the second value")
+// alert(min(value1,value2))
+
+function pow(x,n){
+  return (x**n)
+}
+alert(pow(3,3))
