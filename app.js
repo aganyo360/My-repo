@@ -61,13 +61,13 @@
 
 // textMessage("Jesus", "Love your neighbour as you love yourself")
 
-function checkAge(age) {
-  if (age >= 18) {
-    return true;
-  } else {
-    return confirm('Do you have permission from your parents?');
-  }
-}
+// function checkAge(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return confirm('Do you have permission from your parents?');
+//   }
+// }
 
 // let age = prompt('How old are you?', 18);
 
@@ -138,5 +138,13 @@ function checkAge(age) {
 
 // let choice=Math.random("brice", "wilson", "aganyo")
 
+
+
+
+
+let myarry = [12,23,45,6,7,["Bruce",0],[12,12,4,4   ]]
+let cars = ["volve","cayene", "suzuki","swift"
+]
+let newArray = cars.concat(myarry)
 
 
