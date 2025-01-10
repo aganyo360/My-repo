@@ -142,9 +142,18 @@
 
 
 
-let myarry = [12,23,45,6,7,["Bruce",0],[12,12,4,4   ]]
-let cars = ["volve","cayene", "suzuki","swift"
-]
-let newArray = cars.concat(myarry)
+// let myarry = [12,23,45,6,7,["Bruce",0],[12,12,4,4   ]]
+// let cars = ["volve","cayene", "suzuki","swift"
+// ]
+// let newArray = cars.concat(myarry)
 
 
+
+
+
+
+let i = 0;
+
+for (; i < 3;) {
+  alert( i++ );
+}
