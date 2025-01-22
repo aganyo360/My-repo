@@ -25,3 +25,30 @@
 // content2.textContent = "This is how we have challenged ourselves and accomplished this"
 // content2.style.cssText = ""
 // second_child.appendChild(content2)
+
+let container = document.querySelector('.container')
+let paragraph = document.createElement('p')
+let heading = document.createElement('h3')
+
+let heading1 = document.createElement('h3')
+
+
+
+paragraph.textContent = "I am red"
+paragraph.style.cssText = "color:red; font-size:20px"
+container.appendChild(paragraph)
+
+heading.textContent = "I am a blue h3"
+heading.style.cssText = "color:blue"
+container.appendChild(heading)
+
+let pdiv = document.createElement('div')
+pdiv.style.color = "border: 2px black"
+heading1.textContent = "I am a div"
+
+let para = document.createElement('p')
+para.textContent = "ME TOO"
+pdiv.appendChild(heading1)
+pdiv.appendChild(para)
+
+container.appendChild(pdiv)
