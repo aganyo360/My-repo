@@ -43,7 +43,6 @@ heading.style.cssText = "color:blue"
 container.appendChild(heading)
 
 let pdiv = document.createElement('div')
-pdiv.style.color = "border: 2px black"
 heading1.textContent = "I am a div"
 
 let para = document.createElement('p')
@@ -52,3 +51,75 @@ pdiv.appendChild(heading1)
 pdiv.appendChild(para)
 
 container.appendChild(pdiv)
+
+let handleclick = () =>{
+    alert("hello world")
+}
+
+let btn = document.querySelector('#btn')
+// btn.addEventListener("click", () =>{
+//     alert("Welcome to today's lesson")
+// })
+
+// btn.addEventListener("click", function (e) {
+//     console.log(e.target);
+//   });
+
+// btn.addEventListener("click", function (e) {
+//     e.target.style.background = "blue";
+//   });
+  
+let buttons  = document.querySelectorAll('button')
+
+buttons.forEach((button)=>{
+    button.addEventListener('click', ()=>{
+        alert(button.id);
+    });
+});
+
+
+// buttons is a node list. It looks and acts much like an array.
+// const buttons = document.querySelectorAll("button");
+
+// // we use the .forEach method to iterate through each button
+// buttons.forEach((button) => {
+//   // and for each one we add a 'click' listener
+//   button.addEventListener("click", () => {
+//     alert(button.id);
+//   });
+// });
+
+
+let charInput = document.querySelector('#inputText');
+charInput.addEventListener("keyup", () => 
+    {
+        let letter = charInput.value
+        console.log(`You pressed ${letter}`)
+ 
+})
+
+
+
+
+
+
+
+
+
+
+let navbar  = document.querySelector('.nav_bar')
+let paragraph = document.createElement('ul')
+let list = document.createElement('li')
+
+list.textContent = 'Home'
+
+paragraph.appendChild(list)
+navbar.appendChild(paragraph)
+
+
+
+
+
+
+
+
