@@ -1,7 +1,4 @@
-<!-- # -->
-<!-- Introduction
- This is the best and a new showcase study on github account
- this is where you get to familiriaze yourself with basic git commands and interfacess -->
-<!-- ## -->
-<!-- the two sharps show that this is a subheading and a single sharp show that it is the main header -->
+# Dynamic Shop
+- This system is built using vanilla javascript that allows users to add products of their choice
+    The only technologies used are html css and javacript
  
