@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pageload</title>
+</head>
+<body>
+    <button class="btn">
+        Click Me
+    </button>
+    <a href="http://shahibu.com">Take me to shahibu</a>
+
+    <script>
+        let btn = document.querySelector('.btn');
+
+        btn.addEventListener('click', function(event) {
+            alert(event.type);
+            event.stopPropagation();
+        });
+
+        document.body.addEventListener('click', (event)=>{
+            // alert(event.type);
+            console.log('The body was clicked');
+        })
+
+
+
+
+
+
+
+        let a = document.querySelector('a');
+        a.addEventListener('click', function(event) {
+            // console.log(event.cancelable)
+            event.preventDefault();
+        });
+
+    </script>
+</body>
+</html>
